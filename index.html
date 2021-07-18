@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Panda E-commerce</title>
     <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
     <!-- header start -->
@@ -50,7 +51,7 @@
           class="carousel slide"
           data-bs-ride="carousel"
         >
-          <div class="carousel-inner bg-info bg-gradient rounded p-5">
+          <div class="carousel-inner bg-slider rounded p-5">
             <div class="carousel-item active p-5">
               <div class="row d-flex align-items-center">
                 <div class="col-lg-7">
@@ -120,7 +121,7 @@
     <!-- Main start -->
     <main>
       <!-- Categories Start -->
-      <section class="container my-5">
+      <section class="container my-5 categories">
         <div class="row g-4">
           <div class="col-12 col-md-12 col-lg-4">
             <div
@@ -312,7 +313,7 @@
           d-flex
           justify-content-center
           align-items-center
-          bg-info
+          bg-slider
           rounded-3
         "
       >
@@ -320,12 +321,12 @@
           <h1>LET'S STAY IN TOUCH</h1>
           <p>Get updates on sales, specials and more</p>
           <input
+            class="form-control"
             type="email"
             name="email"
             id=""
             placeholder="Enter Your Email"
           />
-          <br />
           <button type="button" class="btn btn-primary mt-2">Submit</button>
         </div>
       </section>
